@@ -1,0 +1,5 @@
+sentence = list(input("Please enter your sentence :"))
+result = {}
+for i in sentence:
+    result[i] = sentence.count(i)
+print(result)
